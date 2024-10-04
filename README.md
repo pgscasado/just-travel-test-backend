@@ -44,6 +44,80 @@ Para popular o banco de dados, execute:
 mix run priv/repo/seeds.exs
 ```
 
+<details>
+  <summary>O que vai ser inserido:</summary>
+
+  Itens adicionados: 
+  id | name | description | price
+  --- | ---- | ----------- | ----
+  1 | Banana | A banana | 3.0
+  2 | Apple | An apple | 2.0
+  3 | Milk | A milk | 5.0
+  4 | Orange | An orange | 4.0
+  5 | Egg | An egg | 1.0
+  6 | Meat | Meat | 10.0
+  7 | Cheese | Cheese | 8.0
+  8 | Coke | Coke | 6.0
+  9 | Pepsi | Pepsi | 7.0
+  10 | Water | Water | 1.0
+
+  Carrinhos criados:
+```json
+[
+  {
+    "cartItems": [
+      {
+        "item": {
+          "name": "Banana",
+          "price": 3
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "name": "Apple",
+          "price": 2
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "name": "Milk",
+          "price": 5
+        },
+        "quantity": 2
+      }
+    ],
+    "deductedTotalPrice": 20.7,
+    "id": "1",
+    "totalPrice": 23
+  },
+  {
+    "cartItems": [
+      {
+        "item": {
+          "name": "Egg",
+          "price": 1
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "name": "Meat",
+          "price": 10
+        },
+        "quantity": 10
+      }
+    ],
+    "deductedTotalPrice": 91.8,
+    "id": "2",
+    "totalPrice": 102
+  }
+]
+```
+  
+</details>
+
 ## 🔄️ Executar
 
 Para executar o servidor, execute:
