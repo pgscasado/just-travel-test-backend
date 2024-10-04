@@ -54,7 +54,7 @@ mix phx.server
 
 ### 🛝 Playground
 
-O projeto foi desenvolvido para análise usando Playground do GraphiQL. Para acessar o playground certifique-se de executar o servidor e acesse: http://localhost:4000/playground.
+O projeto foi desenvolvido para análise usando Playground do GraphiQL. Para acessar o playground certifique-se de executar o servidor e acesse: http://localhost:4000/api/graphiql.
 
 Eu incluí as queries usadas nos testes no workspace do GraphiQL. Importe o arquivo `graphiql-workspace-2024-10-04-02-48-25.json` para o playground para visualizar as queries.
 
