@@ -1,0 +1,1127 @@
+{
+  "key": "graphiql",
+  "lastId": 14,
+  "tabIds": [
+    "tab1",
+    "tab2",
+    "tab3",
+    "tab5",
+    "tab6",
+    "tab7",
+    "tab8",
+    "tab10",
+    "tab11",
+    "tab12",
+    "tab13",
+    "tab14"
+  ],
+  "closedTabs": [
+    {
+      "id": "tab9",
+      "name": "GetAllCartsQuery",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "{getCarts{\n  id\n}}",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "{getCarts{\n  id\n}}",
+      "graphiql:editorFlex": 1,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"{getCarts{\\n  id\\n}}\",\"operationName\":null}]}",
+      "graphiql:variableEditorHeight": 200
+    },
+    {
+      "id": "tab4",
+      "name": "Query 4",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [],
+      "graphiql:query": "",
+      "graphiql:variables": "",
+      "graphiql:editorFlex": 1,
+      "graphiql:variableEditorHeight": 200,
+      "graphiql:docExplorerWidth": 350
+    }
+  ],
+  "defaultUrl": "http://localhost:4000/api/graphiql",
+  "defaultWebsocketUrl": "",
+  "defaultQuery": "",
+  "defaultVariables": "",
+  "defaultProxy": false,
+  "defaultHeaders": [],
+  "usedUrls": [
+    "http://localhost:4000/api/graphiql"
+  ],
+  "recentHeaders": [],
+  "maxTabHistory": 20,
+  "maxUrlHistory": 20,
+  "maxHistory": 20,
+  "savedQueries": [
+    {
+      "query": "mutation InsertItemMutation($name: String!, $description: String, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    name\n    description\n    price\n  }\n}",
+      "variables": "{\n  \"name\": \"ABC\",\n  \"description\": \"123\",\n  \"price\": 123.1\n}"
+    }
+  ],
+  "activeId": "tab10",
+  "tabs": [
+    {
+      "id": "tab1",
+      "name": "InsertItemMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+          "variables": {
+            "name": "Banana maçã",
+            "description": "Uma banana comum",
+            "price": 3
+          }
+        },
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+          "variables": {
+            "name": "Banana maçã",
+            "description": "Uma banana comum",
+            "price": 3
+          }
+        },
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+          "variables": {
+            "name": "Maçã comum",
+            "description": "Uma maçã comum",
+            "price": 5
+          }
+        },
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+          "variables": {
+            "name": "Maçã comum",
+            "description": "Uma maçã comum",
+            "price": 0
+          }
+        },
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+          "variables": {
+            "name": "Maçã comum",
+            "description": "Uma maçã comum",
+            "price": 0
+          }
+        },
+        {
+          "query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "name": "Maçã comum",
+            "description": "Uma maçã comum",
+            "price": 0
+          }
+        },
+        {
+          "query": "mutation {\n  insertItem(name: \"Maçã comum\", description: \"Uma maçã comum\", price: 0.0) {\n    name\n    description\n    price\n  }\n}",
+          "variables": null
+        },
+        {
+          "query": "mutation InsertItemMutation($name: String!, $description: String, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "name": "ABC",
+            "description": "123",
+            "price": 123.1
+          }
+        }
+      ],
+      "graphiql:query": "mutation InsertItem($name: String!, $description: String!, $price: Float!) {\n  insertItem(name: $name, description: $description, price: $price) {\n    id\n  }\n}",
+      "graphiql:variables": "{\n  \"name\": \"Banana maçã\",\n  \"description\": \"Uma banana comum\",\n  \"price\": 3.0\n}",
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation InsertItemMutation($name: String!, $description: String, $price: Float!) {\\n  insertItem(name: $name, description: $description, price: $price) {\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"name\\\": \\\"ABC\\\",\\n  \\\"description\\\": \\\"123\\\",\\n  \\\"price\\\": 123.1\\n}\",\"operationName\":\"InsertItemMutation\"},{\"query\":\"mutation {\\n  insertItem(name: \\\"Maçã comum\\\", description: \\\"Uma maçã comum\\\", price: 0.0) {\\n    name\\n    description\\n    price\\n  }\\n}\"},{\"query\":\"mutation InsertItem($name: String!, $description: String!, $price: Float!) {\\n  insertItem(name: $name, description: $description, price: $price) {\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã comum\\\",\\n  \\\"price\\\": 0.0\\n}\",\"operationName\":\"InsertItem\"},{\"query\":\"mutation InsertItem($name: String!, $description: String!, $price: Float!) {\\n  insertItem(name: $name, description: $description, price: $price) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã comum\\\",\\n  \\\"price\\\": 0.0\\n}\",\"operationName\":\"InsertItem\"},{\"query\":\"mutation InsertItem($name: String!, $description: String!, $price: Float!) {\\n  insertItem(name: $name, description: $description, price: $price) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã comum\\\",\\n  \\\"price\\\": 5.0\\n}\",\"operationName\":\"InsertItem\"},{\"query\":\"mutation InsertItem($name: String!, $description: String!, $price: Float!) {\\n  insertItem(name: $name, description: $description, price: $price) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"name\\\": \\\"Banana maçã\\\",\\n  \\\"description\\\": \\\"Uma banana comum\\\",\\n  \\\"price\\\": 3.0\\n}\",\"operationName\":\"InsertItem\"}]}",
+      "graphiql:operationName": "InsertItem",
+      "graphiql:editorFlex": 1,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:variableEditorHeight": 446
+    },
+    {
+      "id": "tab2",
+      "name": "UpdateItemMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 15.5
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 15.5
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": "a"
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": "a"
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 15.5
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 15
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 5,
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premiummmm",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "name": "Maçã comum",
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 1,
+            "name": "Maçã comum",
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4,
+            "name": "Maçã comum",
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 1,
+            "name": "Maçã comum",
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        },
+        {
+          "query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 1,
+            "name": "Maçã comum",
+            "description": "Uma maçã não-premium",
+            "price": 10
+          }
+        }
+      ],
+      "graphiql:query": "mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\n  updateItem(\n    id: $id,\n    name: $name,\n    description: $description,\n    price: $price\n  ) {\n    id\n    name\n    description\n    price\n  }\n}",
+      "graphiql:variables": "{\n\t\"id\": 4,\n  \"description\": \"Uma maçã não-premium\",\n  \"price\": 15.5\n}",
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 1,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\"\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 1,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 1,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 1,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"name\\\": \\\"Maçã comum\\\",\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premiummmm\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 5,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 10.0\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 15\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 15.5\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": abc\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": \\\"a\\\"\\n}\",\"operationName\":\"UpdateItem\"},{\"query\":\"mutation UpdateItem($id: ID!, $name: String, $description: String, $price: Float) {\\n  updateItem(\\n    id: $id,\\n    name: $name,\\n    description: $description,\\n    price: $price\\n  ) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n\\t\\\"id\\\": 4,\\n  \\\"description\\\": \\\"Uma maçã não-premium\\\",\\n  \\\"price\\\": 15.5\\n}\",\"operationName\":\"UpdateItem\"}]}",
+      "graphiql:operationName": "UpdateItem",
+      "graphiql:editorFlex": 1,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:variableEditorHeight": 263
+    },
+    {
+      "id": "tab3",
+      "name": "DeleteItemMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation DeleteItem($id: ID!) {\n  deleteItem(id: $id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        },
+        {
+          "query": "mutation DeleteItem($id: ID!) {\n  deleteItem(id: $id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        },
+        {
+          "query": "mutation DeleteItem($id: ID!) {\n  deleteItem(id: $id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 4
+          }
+        },
+        {
+          "query": "mutation DeleteItem($id: ID!) {\n  deleteItem(id: $id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        }
+      ],
+      "graphiql:query": "mutation DeleteItem($id: ID!) {\n  deleteItem(id: $id) {\n    id\n  }\n}",
+      "graphiql:variables": "{\n  \"id\": 5\n}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:editorFlex": 1,
+      "graphiql:variableEditorHeight": 323,
+      "graphiql:operationName": "DeleteItem",
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation DeleteItem($id: ID!) {\\n  deleteItem(id: $id) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 5\\n}\",\"operationName\":\"DeleteItem\"},{\"query\":\"mutation DeleteItem($id: ID!) {\\n  deleteItem(id: $id) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 4\\n}\",\"operationName\":\"DeleteItem\"},{\"query\":\"mutation DeleteItem($id: ID!) {\\n  deleteItem(id: $id) {\\n    id\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 5\\n}\",\"operationName\":\"DeleteItem\"}]}"
+    },
+    {
+      "id": "tab5",
+      "name": "GetItemQuery",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 7
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 6
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 6
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 4
+          }
+        },
+        {
+          "query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+          "variables": {
+            "id": 5
+          }
+        }
+      ],
+      "graphiql:query": "query ($id: ID!) {\n  getItem(id: $id) {\n    id\n    name\n    description\n    price\n  }\n}",
+      "graphiql:variables": "{\n  \"id\": 1\n}",
+      "graphiql:queries": "{\"queries\":[{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 5\\n}\"},{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 4\\n}\"},{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 5\\n}\"},{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 6\\n}\"},{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 7\\n}\"},{\"query\":\"query ($id: ID!) {\\n  getItem(id: $id) {\\n    id\\n    name\\n    description\\n    price\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 1\\n}\"}]}",
+      "graphiql:variableEditorHeight": 294,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:editorFlex": 1
+    },
+    {
+      "id": "tab6",
+      "name": "GetAllItemsQuery",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "query {\n  getItems {\n    id\n    name\n\t\tdescription\n  \tprice\n  }\n}",
+          "variables": null
+        },
+        {
+          "query": "query {\n  getItems {\n    id\n    name\ndescription  }\n}",
+          "variables": null
+        },
+        {
+          "query": "query {\n  getItems {\n    id\n    name\n  }\n}",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "query {\n  getItems {\n    id\n    name\n\t\tdescription\n  \tprice\n  }\n}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:variableEditorHeight": 200,
+      "graphiql:editorFlex": 1,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"query {\\n  getItems {\\n    id\\n    name\\n  }\\n}\",\"variables\":\"\"},{\"query\":\"query {\\n  getItems {\\n    id\\n    name\\ndescription  }\\n}\",\"variables\":\"\"},{\"query\":\"query {\\n  getItems {\\n    id\\n    name\\n\\t\\tdescription\\n  \\tprice\\n  }\\n}\"}]}"
+    },
+    {
+      "id": "tab7",
+      "name": "CreateCartMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation {\n  createCart {\n    id\n    cartItems {\n      id\n    }\n  }\n}",
+          "variables": null
+        },
+        {
+          "query": "mutation {\n  createCart {\n    id\n  }\n}",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "mutation {\n  createCart {\n    id\n    \n  }\n}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:editorFlex": 1,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation {\\n  createCart {\\n    id\\n  }\\n}\"},{\"query\":\"mutation {\\n  createCart {\\n    id\\n    cartItems {\\n      id\\n    }\\n  }\\n}\"}]}",
+      "graphiql:variableEditorHeight": 200
+    },
+    {
+      "id": "tab8",
+      "name": "AddItemToCart",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 3,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 3,
+            "item_id": 7,
+            "quantity": -10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": -10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": -10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 6,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": -10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        },
+        {
+          "query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cart_id": 2,
+            "item_id": 7,
+            "quantity": 10
+          }
+        }
+      ],
+      "graphiql:query": "mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\n  addItemToCart(\n    cartId:$cart_id,\n    itemId:$item_id,\n    quantity:$quantity,\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+      "graphiql:variables": "{\n  \"cart_id\": 3,\n  \"item_id\": 7,\n\t\"quantity\": 10\n}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 0,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 3,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:ID!, $item_id:ID!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": 2\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    itemId,\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 1\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 1\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": -10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": -10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": 10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": -10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 6,\\n\\t\\\"quantity\\\": 10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 2,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": -10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 3,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": -10\\n}\"},{\"query\":\"mutation($cart_id:Int!, $item_id:Int!, $quantity:Int!) {\\n  addItemToCart(\\n    cartId:$cart_id,\\n    itemId:$item_id,\\n    quantity:$quantity,\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cart_id\\\": 3,\\n  \\\"item_id\\\": 7,\\n\\t\\\"quantity\\\": 10\\n}\"}]}",
+      "graphiql:variableEditorHeight": 312,
+      "graphiql:editorFlex": 1
+    },
+    {
+      "id": "tab10",
+      "name": "DeleteCartMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation($id: ID!) {\n  deleteCart(id:$id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "mutation($id: ID!) {\n  deleteCart(id:$id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "mutation($id: ID!) {\n  deleteCart(id:$id) {\n    id\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        }
+      ],
+      "graphiql:query": "mutation($id: ID!) {\n  deleteCart(id:$id) {\n    id\n  }\n}",
+      "graphiql:variables": "{\"id\": 1}",
+      "graphiql:editorFlex": 1,
+      "graphiql:variableEditorHeight": 320,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation($id: ID!) {\\n  deleteCart(id:$id) {\\n    id\\n  }\\n}\",\"variables\":\"{\\\"id\\\": 2}\"},{\"query\":\"mutation($id: ID!) {\\n  deleteCart(id:$id) {\\n    id\\n  }\\n}\",\"variables\":\"{\\\"id\\\": 1}\"}]}",
+      "graphiql:docExplorerWidth": 350
+    },
+    {
+      "id": "tab11",
+      "name": "ViewCartQuery",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    deductedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    deductedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    deductedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 1
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    deductedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    discountedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        },
+        {
+          "query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+          "variables": {
+            "id": 2
+          }
+        }
+      ],
+      "graphiql:query": "query($id: Int!) {\n  viewCart(id:$id) {\n    id\n    totalPrice\n    deductedTotalPrice\n    cartItems { item { id, name, price }, quantity }\n  }\n}",
+      "graphiql:variables": "{\n  \"id\": 1\n}",
+      "graphiql:queries": "{\"queries\":[{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    items {\\n      itemId,\\n      quantity\\n    }\\n  }\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    items {\\n      itemId,\\n      quantity\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    items {\\n      id\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    items { id }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { id }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { itemId }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { itemId, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { itemId, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 3\\n}\"},{\"query\":\"query($id: ID!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { itemId, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { itemId, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { item { id }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    cartItems { item { id, name }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    cartItems { item { id, name }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    cartItems { item { id, name }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 1\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    cartItems { item { id, name }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    cartItems { item { id, name, price }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    discountedTotalPrice\\n    cartItems { item { id, name, price }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    deductedTotalPrice\\n    cartItems { item { id, name, price }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2\\n}\"},{\"query\":\"query($id: Int!) {\\n  viewCart(id:$id) {\\n    id\\n    totalPrice\\n    deductedTotalPrice\\n    cartItems { item { id, name, price }, quantity }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 1\\n}\"}]}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:editorFlex": 1,
+      "graphiql:variableEditorHeight": 289
+    },
+    {
+      "id": "tab12",
+      "name": "ViewAllCartsQuery",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "{ getCarts {\n  id\n  cartItems {\n    id\n    item {\n      name\n    }\n  }\n}}",
+          "variables": null
+        },
+        {
+          "query": "{ getCarts {\n  id\n  cartItems {\n    id\n  }\n}}",
+          "variables": null
+        },
+        {
+          "query": "{ getCarts {\n  id\n}}",
+          "variables": null
+        },
+        {
+          "query": "{ getCarts {\n  id,\n  cartItems {\n    id\n  }\n}}",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "{ getCarts {\n  id\n  cartItems {\n    id\n    item {\n      name\n    }\n  }\n}}",
+      "graphiql:variableEditorHeight": 200,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"{ getCarts {\\n  id,\\n  cartItems\\n}}\",\"variables\":\"\",\"operationName\":null},{\"query\":\"{ getCarts {\\n  id,\\n  cartItems {\\n    id\\n  }\\n}}\",\"variables\":\"\",\"operationName\":null},{\"query\":\"{ getCarts {\\n  id\\n}}\",\"variables\":\"\",\"operationName\":null},{\"query\":\"{ getCarts {\\n  id\\n  cartItems\\n}}\",\"operationName\":null},{\"query\":\"{ getCarts {\\n  id\\n  cartItems {\\n    id\\n    item {\\n      name\\n    }\\n  }\\n}}\",\"operationName\":null}]}",
+      "graphiql:editorFlex": 1
+    },
+    {
+      "id": "tab13",
+      "name": "RemoveItemFromCartMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 1
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": 1
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 6,
+            "quantityToRemove": -1
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        },
+        {
+          "query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description},\n    quantity\n  }\n}",
+          "variables": {
+            "cartId": 2,
+            "itemId": 7,
+            "quantityToRemove": 0
+          }
+        }
+      ],
+      "graphiql:query": "mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\n  removeItemFromCart(\n    cartId:$cartId,\n    itemId:$itemId,\n    quantity:$quantityToRemove\n  ) {\n    id,\n    item { id, name, price, description },\n    quantity\n  }\n}",
+      "graphiql:variables": "{\n  \"cartId\": 2,\n  \"itemId\": 6,\n  \"quantityToRemove\": 0\n}",
+      "graphiql:variableEditorHeight": 293,
+      "graphiql:editorFlex": 1,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    cart {\\n      cartItems {\\n        id\\n      }\\n    }\\n  }\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    cart {\\n      cartItems {\\n        id\\n      }\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    cart {\\n      cartItems {\\n        id\\n      }\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 8,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    cart {\\n      cartItems {\\n        id\\n      }\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    cart {\\n      cartItems {\\n        id\\n      }\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": -1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": -1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 6,\\n  \\\"quantityToRemove\\\": -1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 6,\\n  \\\"quantityToRemove\\\": 1\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description},\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 6,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description },\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 6,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description },\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 7,\\n  \\\"quantityToRemove\\\": 0\\n}\"},{\"query\":\"mutation ($cartId:Int!, $itemId:Int!, $quantityToRemove:Int!) {\\n  removeItemFromCart(\\n    cartId:$cartId,\\n    itemId:$itemId,\\n    quantity:$quantityToRemove\\n  ) {\\n    id,\\n    item { id, name, price, description },\\n    quantity\\n  }\\n}\",\"variables\":\"{\\n  \\\"cartId\\\": 2,\\n  \\\"itemId\\\": 6,\\n  \\\"quantityToRemove\\\": 0\\n}\"}]}"
+    },
+    {
+      "id": "tab14",
+      "name": "FinishCartMutation",
+      "url": "http://localhost:4000/api/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      quantity\n      item {\n        name\n      }   \n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "cash"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      quantity\n      item {\n        name\n      }   \n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "debt"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      quantity\n      item {\n        name\n      }   \n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "credit_card"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      name\n      price\n      \n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "credit_card"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      name\n      price\n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "credit_card"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      name\n      price\n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "credit_card"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      name\n      price\n    }\n  }\n}",
+          "variables": {
+            "id": 2,
+            "paymentMethod": "credit_cardd"
+          }
+        },
+        {
+          "query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      name\n      price\n    }\n  }\n}",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "mutation ($id: Int!, $paymentMethod: String!){\n  finishCart(\n    id: $id,\n    paymentMethod: $paymentMethod\n  ) {\n    id\n    paymentMethod\n    price\n    cartItems {\n      quantity\n      item {\n        name\n      }   \n    }\n  }\n}",
+      "graphiql:variables": "{\n  \"id\": 2,\n  \"paymentMethod\": \"cash\"\n}",
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:editorFlex": 1,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      name\\n      price\\n    }\\n  }\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      name\\n      price\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"credit_cardd\\\"\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      name\\n      price\\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"credit_card\\\"\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      name\\n      price\\n      \\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"credit_card\\\"\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      quantity\\n      item {\\n        name\\n      }   \\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"credit_card\\\"\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      quantity\\n      item {\\n        name\\n      }   \\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"debt\\\"\\n}\"},{\"query\":\"mutation ($id: Int!, $paymentMethod: String!){\\n  finishCart(\\n    id: $id,\\n    paymentMethod: $paymentMethod\\n  ) {\\n    id\\n    paymentMethod\\n    price\\n    cartItems {\\n      quantity\\n      item {\\n        name\\n      }   \\n    }\\n  }\\n}\",\"variables\":\"{\\n  \\\"id\\\": 2,\\n  \\\"paymentMethod\\\": \\\"cash\\\"\\n}\"}]}",
+      "graphiql:variableEditorHeight": 293
+    }
+  ]
+}
