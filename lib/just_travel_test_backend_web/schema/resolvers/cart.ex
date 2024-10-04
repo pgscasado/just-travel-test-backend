@@ -20,7 +20,7 @@ defmodule JustTravelTestBackendWeb.Schema.Resolvers.Cart do
     carts = Repo.all(Cart) |> Repo.preload([cart_items: :item])
     case carts do
       [] -> {:error, "No carts found"}
-      _ -> {:ok, carts |> Cart.with_virtual_fields()}
+      _ -> {:ok, carts |> Enum.map(&Cart.with_virtual_fields/1)}
     end
   end
 
